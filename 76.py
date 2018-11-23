@@ -1,7 +1,7 @@
-n=int(raw_input())
+m=int(raw_input())
 factor=0
-for i in range(1,n):
-    if(n%i==0):
+for n in range(1,m):
+    if(m%n==0):
         factor=i
 if factor>1:
     print "yes"
