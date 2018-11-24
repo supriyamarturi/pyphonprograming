@@ -1,3 +1,3 @@
-cel=int(raw_input())
-kel=cel+273
-print kel
+cell=int(raw_input())
+kell=cell+273
+print kell
