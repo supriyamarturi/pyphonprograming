@@ -1,3 +1,3 @@
-n1,k1=map(int,raw_input().split())
-list=[int(k1) for k1 in raw_input().split()]
-print k1
+n,k=map(int,raw_input().split())
+list=[int(x) for x in raw_input().split()]
+print k
