@@ -1,12 +1,12 @@
-x= raw_input().rstrip()
+k= raw_input().rstrip()
 newWordBegins = True
 result = ''
-for z in x:
-	if z == ' ':
+for y in k:
+	if y == ' ':
 		newWordBegins = True		
 	elif newWordBegins:
 		newWordBegins = False
-		z = chr(ord(z) - 32)
-	result += z
+		y = chr(ord(y) - 32)
+	result += y
 
 print(result)
