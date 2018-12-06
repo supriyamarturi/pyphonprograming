@@ -1,5 +1,5 @@
 list = int(raw_input())
-nums = [1,2,3,4,5]
+nums = [2,3,4,5,6]
 nums.sort()
 length = len(nums)
 if (length % 2 == 0):
