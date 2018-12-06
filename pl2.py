@@ -1,7 +1,8 @@
 num=int(raw_input())
-n=1
+k=1
 while num>0:
-	n=n*num
+	k=k*num
 	num=num-1
-print n
+print k
+ 
  
