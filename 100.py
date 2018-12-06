@@ -1,7 +1,7 @@
 num=int(raw_input())
-def calcProduct(n):
-	if(len(str(n)) == 1):
-		return n
+def calcProduct(k):
+	if(len(str(k)) == 1):
+		return k
 	else:
-		return (n%10 * calcProduct(n/10))
+		return (k%10 * calcProduct(k/10))
 print(calcProduct(2143))
