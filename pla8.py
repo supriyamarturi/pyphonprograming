@@ -1,4 +1,4 @@
-input = raw_input("Enter a string \n").lower()  
+input=raw_input().lower() 
 words = input.split(' ')
 capitalized = []  
 for word in words:
@@ -6,6 +6,8 @@ for word in words:
     capitalized.append(final_words) 
 output = ' '.join(capitalized) 
 print output 
+
+
 
 
 
