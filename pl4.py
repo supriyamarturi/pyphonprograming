@@ -1,2 +1,2 @@
-y=raw_input()
-print(y+".")
+t=raw_input()
+print(t+".")
