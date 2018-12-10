@@ -1,8 +1,8 @@
-num = int(raw_input())    
-Rev = 0    
-while(num > 0):    
-    Reminder = num %10    
-    Rev = (Rev *10) + Reminder    
-    num = num //10    
-     
-print Rev   
+k=int(raw_input())
+rev=0
+while(m>0):
+    remainder=m%10
+    rev=rev*10+remainder
+    k=k/10
+print rev    
+  
