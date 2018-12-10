@@ -1,12 +1,6 @@
-def main():
-   def reverse(string):
-    string = string[::-1]
-    return string
+st=raw_input()
+print st[::-1]
 
-   s = "aabbcc"
-   print (reverse(s))
-if __name__ == '__main__':
-    main()
 
   
 
