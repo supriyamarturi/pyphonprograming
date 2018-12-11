@@ -1,2 +1,2 @@
 data =  raw_input().split(" ")
-print "".join([kk for kk in data if data.count(kk) == 1])
+print "".join([tt for ttin data if data.count(tt) == 1])
