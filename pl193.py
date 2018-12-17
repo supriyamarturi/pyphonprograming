@@ -1,3 +1,3 @@
-a,b,x=map(int,raw_input().split())
-y=a*x+b
-print y
+c,d,z=map(int,raw_input().split())
+u=c*z+d
+print u
